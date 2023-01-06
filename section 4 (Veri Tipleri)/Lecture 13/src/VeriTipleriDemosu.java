@@ -17,6 +17,10 @@ public class VeriTipleriDemosu {
 
         int floatDaraltma = (int) myFloat;
         System.out.println(floatDaraltma);
+        
+        double x = 10.5;
+        int y = (int) x;
+        System.out.println("x values is: " + x) // x'in değeri 10 olacaktır. 10.5 sayısının odanlıklı kısmı veri daraltma yaptığımızdan dolayı değer kaybına uğrayacaktır.
 
     }
 }
